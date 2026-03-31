@@ -1,4 +1,5 @@
-// Replace the empty strings below with your Firebase web app settings.
+// Paste your Firebase web app config values below.
+// You can copy them from: Firebase Console -> Project settings -> Your apps -> Web app
 // These values are safe for client-side use in a static website.
 
 export const firebaseConfig = {
@@ -8,6 +9,7 @@ export const firebaseConfig = {
   storageBucket: '',
   messagingSenderId: '',
   appId: '',
+  measurementId: '',
 };
 
 // Firestore document watched by the homepage for live updates.
