@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Official JMEXE AI — a modern landing page for AI-powered products, automation, and creative digital experiences."
+    />
+    <title>Official JMEXE AI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="background-glow" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#home">officialjmexe-ai</a>
+
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#highlights">Highlights</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <span id="themeIcon">🌙</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero container reveal">
+        <div class="hero-copy">
+          <p class="eyebrow">AI-powered ideas, designed to ship</p>
+          <h1>Modern web experiences for the next build.</h1>
+          <p class="hero-text">
+            Official JMEXE AI creates clean, fast, and polished digital experiences for
+            startups, creators, and ambitious projects.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contact">Start a project</a>
+            <a class="button button-secondary" href="#highlights">See highlights</a>
+          </div>
+
+          <ul class="hero-stats" aria-label="Quick highlights">
+            <li><strong>Fast</strong><span>Responsive layouts</span></li>
+            <li><strong>Modern</strong><span>Fresh UI direction</span></li>
+            <li><strong>Ready</strong><span>GitHub Pages friendly</span></li>
+          </ul>
+        </div>
+
+        <aside class="hero-card">
+          <div class="panel">
+            <p class="panel-label">Featured stack</p>
+            <ul>
+              <li>HTML5 structure</li>
+              <li>Responsive CSS design</li>
+              <li>Light JavaScript interactions</li>
+            </ul>
+          </div>
+          <div class="panel accent">
+            <p class="panel-label">What this site gives you</p>
+            <p>
+              A one-page landing site that is simple to edit, quick to deploy, and ready to
+              publish.
+            </p>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section container reveal" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>Built to present ideas clearly.</h2>
+        </div>
+        <div class="grid two-col">
+          <article class="card">
+            <h3>Clean by default</h3>
+            <p>
+              This layout keeps the message focused with strong spacing, readable typography,
+              and a modern visual style.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Easy to customize</h3>
+            <p>
+              Update headings, colors, links, and sections directly in a few files without a
+              framework or build setup.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container reveal" id="services">
+        <div class="section-heading">
+          <p class="eyebrow">Services</p>
+          <h2>What this landing page can showcase.</h2>
+        </div>
+
+        <div class="grid three-col">
+          <article class="card feature-card">
+            <h3>AI solutions</h3>
+            <p>Highlight smart tools, assistants, workflows, and automation projects.</p>
+          </article>
+          <article class="card feature-card">
+            <h3>Web presence</h3>
+            <p>Share your brand story, value proposition, and links in one polished place.</p>
+          </article>
+          <article class="card feature-card">
+            <h3>Product launch</h3>
+            <p>Use this page as a simple launch site for an idea, portfolio, or announcement.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container reveal" id="highlights">
+        <div class="section-heading">
+          <p class="eyebrow">Highlights</p>
+          <h2>Why this starter works well on GitHub Pages.</h2>
+        </div>
+
+        <div class="grid two-col">
+          <article class="card list-card">
+            <ul>
+              <li>No build step required</li>
+              <li>Mobile-friendly layout</li>
+              <li>Theme toggle included</li>
+            </ul>
+          </article>
+          <article class="card list-card">
+            <ul>
+              <li>Lightweight static files</li>
+              <li>Smooth section navigation</li>
+              <li>Simple content structure</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container reveal" id="contact">
+        <div class="contact-card">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Ready to publish or personalize it further?</h2>
+            <p>
+              Update this section with your own links, email, or booking form. For now, your
+              GitHub profile is a great place to direct visitors.
+            </p>
+          </div>
+          <a class="button button-primary" href="https://github.com/officialjmexe-ai" target="_blank" rel="noreferrer">
+            Visit GitHub
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© <span id="year"></span> Official JMEXE AI</p>
+        <a href="#home">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
