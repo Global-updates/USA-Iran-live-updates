@@ -1,4 +1,4 @@
-# officialjmexe-ai.github.io
+# Global-updates.github.io
 
 A simple GitHub Pages landing site with optional live Firebase / Firestore content.
 
